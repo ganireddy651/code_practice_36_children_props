@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.app-container {
+  min-height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.main-heading {
+  font-family: 'Roboto';
+}
+.card-container {
+  border: 1px solid #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.heading {
+  font-size: 30px;
+}
+.para {
+  font-size: 14px;
+}
